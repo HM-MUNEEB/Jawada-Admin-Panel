@@ -1,0 +1,55 @@
+.w-90 {
+  width: 90% !important;
+}
+.tester-items {
+  height: 3rem;
+  border: none !important;
+  background-color: #0e1566;
+  border-radius: 25px;
+  align-items: center;
+  padding: 5px;
+  border-color: white;
+  margin-bottom: 3px !important;
+}
+.del-tester-align {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.del-btn {
+  margin-right: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 31, 31, 0.1);
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 2.5rem;
+}
+.del-btn img {
+  width: 60%;
+}
+.del-btn:hover {
+  background-color: rgba(255, 31, 31, 0.2);
+  cursor: pointer;
+}
+.edit-btn img {
+  width: 60%;
+}
+.edit-btn {
+  margin-right: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(192, 190, 255, 0.2);
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 2.5rem;
+}
+.edit-btn:hover {
+  cursor: pointer;
+  background-color: rgba(192, 190, 255, 0.4);
+}
